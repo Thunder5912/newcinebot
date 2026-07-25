@@ -1,0 +1,20 @@
+{
+  "name": "movie-library-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo Build Complete"
+  },
+  "dependencies": {
+    "@googleapis/sheets": "^9.2.0",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "google-auth-library": "^9.11.0",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.6.2"
+  }
+}
